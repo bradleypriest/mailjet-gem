@@ -14,7 +14,7 @@ Gem::Specification.new do |s|
   s.homepage    = "http://www.mailjet.com"
   s.summary     = "Basic Mailjet ActionMailer support"
   s.description = "Basic Mailjet ActionMailer support"
-
+  s.license     = 'MIT'
 
   s.files = Dir["{lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["spec/**/*"]
